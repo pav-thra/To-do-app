@@ -5,6 +5,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class App {
   name = 'Usha';
